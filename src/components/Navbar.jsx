@@ -46,9 +46,14 @@ export default function Navbar() {
                     </ul>
         
                     <button>
-                        <a href="https://yesexia1206.github.io/LIN16/reservationForm">
+                        {/* <a href="https://yesexia1206.github.io/LIN16/reservationForm">
                             <img src="./images/member/reservation-button.svg" alt=""/>
-                        </a>
+                        </a> */}
+                        <Link to='/ReservationForm'>
+                        <img src="./images/member/reservation-button.svg" alt=""/>
+                        
+                        </Link>
+
                     </button>
                 </nav>
             </div>
