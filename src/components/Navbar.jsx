@@ -51,9 +51,8 @@ export default function Navbar() {
                         </a> */}
                         <Link to='/ReservationForm'>
                         <img src="./images/member/reservation-button.svg" alt=""/>
-                        
+                
                         </Link>
-
                     </button>
                 </nav>
             </div>
